@@ -42,25 +42,5 @@ export class UserListComponent implements OnInit {
       this.selectedUser = null; // Réinitialise la sélection
     }
   }
-
-  // users: User[] = [];
-
-  // constructor(private ObserService: ObserService) { }
-
-  // ngOnInit(): void {
-  //   // S'abonner aux changements dans la liste des utilisateurs
-  //   this.ObserService.getUsers().subscribe(users => this.users = users);
-  // }
-
-  // // Méthode pour ajouter un utilisateur
-  // addUser(): void {
-  //   const newUser: User = { id: Date.now(), name: 'New User', email: 'new@user.com' };
-  //   this.ObserService.addUser(newUser);
-  // }
-
-  // // Méthode pour supprimer un utilisateur
-  // removeUser(id: number): void {
-  //   this.ObserService.removeUser(id);
-  // }
-
+  
 }
